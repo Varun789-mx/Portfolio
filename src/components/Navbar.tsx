@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
     <>
-      <div className="w-screen-xl flex justify-between items-center p-4 bg-black">
+      <div className=" fixed w-screen-xl w-full flex justify-between items-center p-4 z-50 bg-black">
         <div className="flex items-center ">
           <img
             className="w-12 rounded-full"
@@ -10,7 +10,7 @@ export const Navbar = () => {
           />
         </div>
         <div className="flex items-center space-x-3">
-          <a href="#home" >
+          <a href="#home">
             <span className="text-white m-2 p-2 font-bold">Home</span>{" "}
           </a>
           <a href="#home">
