@@ -6,17 +6,15 @@ import { ParticleBackground } from "./components/Particle";
 function App() {
   return (
     <>
-      <div>
+      <div className="relative p-3">
+        <Navbar />
+      </div>
+      <div className="fixed p-3">
         <ParticleBackground />
       </div>
-      <Navbar />
-      <div className="grid grid-cols-2 gap-2">
-        <div className="col-span-2 grid grid-cols-subgrid">
-          <Card />
-        </div>
-        <div className="col-span-2 grid grid-cols-subgrid">
-          <Card />
-        </div>
+
+      <div className="relative p-11">
+        <Card />
       </div>
     </>
   );
