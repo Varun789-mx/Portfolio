@@ -15,7 +15,7 @@ export const Card = () => {
                   "I'm a Nextjs developer",
                 ],
                 autoStart: true,
-                loop:true
+                loop: true,
               }}
             />
           </span>
