@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
     <>
-      <div className=" fixed w-screen-xl w-full flex justify-between items-center p-4 z-50 bg-black">
+      <div className=" fixed w-screen-xl w-full flex justify-between items-center p-2 z-50 bg-black">
         <div className="flex items-center ">
           <img
             className="w-12 rounded-full"
