@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "./ui/hero-highlight";
+import { HeroHighlight, Highlight } from "../ui/hero-hightlight";
 
 export function HeroHighlightDemo() {
   return (

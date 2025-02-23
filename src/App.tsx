@@ -2,7 +2,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Card } from "./components/Card";
 import { ParticleBackground } from "./components/Particle";
-import { Scroll } from "./components/Scrollbar";
+import { HeroHighlightDemo } from "./components/Hero";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Card />
       </div>
       <div className="relative p-5">
-        <Scroll />
+        <HeroHighlightDemo />
       </div>
     </>
   );
