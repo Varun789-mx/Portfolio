@@ -1,4 +1,11 @@
-
+import mernlogo from "../assets/mernlogo.jpg";
+import reactlogo from "../assets/react.png";
+import javascriptlogo from "../assets/javascriptlogo.png";
+import typescriptlogo from "../assets/typescriptlogo.png";
+import postgreslogo from "../assets/postgres.png";
+import clogo from "../assets/c++logo.jpg"
+import nextjslogo from "../assets/nextlogo.png";
+import postmanlogo from "../assets/postmanlogo.png";
 
 import { HeroParallax } from './HeroParallax';
 
@@ -11,93 +18,87 @@ const products = [
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "/javascript.png",  //not visible
+      clogo,  //not visible
   },
   {
     title: "Postman",
     link: "https://learning.postman.com/docs/introduction/overview/",
     thumbnail:
-      "/postman.png", //isn't visible that much
+     postmanlogo, //isn't visible that much
   },
   {
-    title: "Java(Currently Learning)",
+    title: "Javascript",
     link: "https://docs.oracle.com/en/java/",
     thumbnail:
-      "/java.png",
+      javascriptlogo,
   },
 
   {
     title: "Javascript",
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     thumbnail:
-      "/javascript.png",
+      javascriptlogo,
   },
   {
     title: "Typescript",
     link: "https://www.typescriptlang.org/docs/",
-    thumbnail:
-      "/ts.png",
+    thumbnail:typescriptlogo
+      ,
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
     thumbnail:
-      "/ts.png", //nv
+    mernlogo, 
   },
 
   {
     title: "Algochurn",
     link: "https://algochurn.com",
     thumbnail:
-      "/ts.png",
+      typescriptlogo,
   },
   {
     title: "PostgreSQL",
     link: "https://www.postgresql.org/docs/",
-    thumbnail:
-      "/postgresql.png",
+    thumbnail:postgreslogo
+      ,
   },
   {
     title: "Next.js",
     link: "https://nextjs.org/docs",
-    thumbnail:
-      "/next.png",
+    thumbnail:reactlogo,
   },
   {
     title: "SmartBridge",
     link: "https://smartbridgetech.com",
-    thumbnail:
-      "/mern.png",
+    thumbnail:reactlogo,
   },
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
-    thumbnail:
-      "/react.png",
+    thumbnail:reactlogo,
   },
 
   {
     title: "Creme Digital",
     link: "https://cremedigital.com",
-    thumbnail:
-      "/react.png",
+    thumbnail:reactlogo,
   },
   {
     title: "Golden Bells Academy",
     link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "/react.png",
+    thumbnail:reactlogo,
   },
   {
     title: "Invoker Labs",
     link: "https://invoker.lol",
-    thumbnail:
-      "./mernlogo.png",
+    thumbnail:reactlogo,
   },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "/nextlogo.png",
+      nextjslogo,
   },
 ];
