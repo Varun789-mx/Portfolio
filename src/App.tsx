@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar";
 import { Card } from "./components/Card";
 import { ParticleBackground } from "./components/Particle";
 import { HeroHighlightDemo } from "./components/Hero";
-import { Carousel } from "./components/Carousel";
+import { ProjectsSection } from "./components/Carousel";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="relative p-3">
         <Navbar />
       </div>
-      <div className="fixed p-3">
+      <div className="fixed p-3 max-w-screen">
         <ParticleBackground />
       </div>
 
@@ -21,10 +21,12 @@ function App() {
       <div className="relative p-5">
         <HeroHighlightDemo />
       </div>
-      <div>
-        <Carousel/>
-        </div>
-
+      <div className="bg-blue-300">
+        <h1>Projects</h1>
+      </div>
+      <div className="bg-black-solid opacity-100 ">
+        <ProjectsSection />
+      </div>
     </>
   );
 }
