@@ -7,52 +7,97 @@ export function ProjectsSection() {
 }
 
 const products = [
-     {
-         title: 'Mern Memories',
-         link: 'https://github.com/spojskic/mern-memories',
-         thumbnail: '/projects/mern-memories.png'
-     },
-     {
-         title: 'Next Event',
-         link: 'https://github.com/spojskic/next-dj-events-frontend',
-         thumbnail: '/projects/next-event.png'
-     },
-     {
-         title: 'Devspace',
-         link: 'https://github.com/spojskic/next-devspace-blog',
-         thumbnail: '/projects/devspace.png'
-     },
+  {
+    title: "Moonbeam",
+    link: "https://gomoonbeam.com",
+    thumbnail:
+      "/javascript.png",  //not visible
+  },
+  {
+    title: "Postman",
+    link: "https://learning.postman.com/docs/introduction/overview/",
+    thumbnail:
+      "/postman.png", //isn't visible that much
+  },
+  {
+    title: "Java(Currently Learning)",
+    link: "https://docs.oracle.com/en/java/",
+    thumbnail:
+      "/java.png",
+  },
 
-     {
-         title: 'Google Clone',
-         link: 'https://github.com/MagicPojska/gulululgl-search-clone',
-         thumbnail: '/projects/google-clone.png'
-     },
-     {
-         title: 'Portfolio V1',
-         link: 'https://safetpojskic.netlify.app/',
-         thumbnail: '/projects/old-portfolio.png'
-     },
-     {
-         title: 'Dresscode',
-         link: '',
-         thumbnail: '/projects/dresscode.png'
-     },
+  {
+    title: "Javascript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    thumbnail:
+      "/javascript.png",
+  },
+  {
+    title: "Typescript",
+    link: "https://www.typescriptlang.org/docs/",
+    thumbnail:
+      "/ts.png",
+  },
+  {
+    title: "Pixel Perfect",
+    link: "https://app.pixelperfect.quest",
+    thumbnail:
+      "/ts.png", //nv
+  },
 
-     {
-         title: 'Portfolio V2',
-         link: 'https://safetpojskic.com',
-         thumbnail: '/projects/portfoliov2.png'
-     },
-     {
-         title: 'Music App',
-         link: 'https://github.com/spojskic/my-music-app',
-         thumbnail: '/projects/music-app.png'
-     },
-     {
-         title: 'Artemis',
-         link: '',
-         thumbnail: '/projects/artemis.png'
-     }
- ];
-        
+  {
+    title: "Algochurn",
+    link: "https://algochurn.com",
+    thumbnail:
+      "/ts.png",
+  },
+  {
+    title: "PostgreSQL",
+    link: "https://www.postgresql.org/docs/",
+    thumbnail:
+      "/postgresql.png",
+  },
+  {
+    title: "Next.js",
+    link: "https://nextjs.org/docs",
+    thumbnail:
+      "/next.png",
+  },
+  {
+    title: "SmartBridge",
+    link: "https://smartbridgetech.com",
+    thumbnail:
+      "/mern.png",
+  },
+  {
+    title: "Renderwork Studio",
+    link: "https://renderwork.studio",
+    thumbnail:
+      "/react.png",
+  },
+
+  {
+    title: "Creme Digital",
+    link: "https://cremedigital.com",
+    thumbnail:
+      "/react.png",
+  },
+  {
+    title: "Golden Bells Academy",
+    link: "https://goldenbellsacademy.com",
+    thumbnail:
+      "/react.png",
+  },
+  {
+    title: "Invoker Labs",
+    link: "https://invoker.lol",
+    thumbnail:
+      "/react.png",
+  },
+  {
+    title: "E Free Invoice",
+    link: "https://efreeinvoice.com",
+    thumbnail:
+      "/react.png",
+  },
+];
