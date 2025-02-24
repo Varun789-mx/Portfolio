@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 export const Card = () => {
   return (
     <>
-      <div className=" grid grid-cols-6  justify-items-center p-3 m-3 ">
+      <div className=" grid grid-cols-6  justify-items-center w-full pt-5 pl-5 gap-5">
         <div className="col-span-3 text-white bg-black w-full flex flex-col">
           <h1 className="font-sans font-bold text-7xl">Hi </h1>
           <h2 className="font-sans font-bold text-7xl">I'm Harsh</h2>
