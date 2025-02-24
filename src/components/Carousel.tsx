@@ -92,12 +92,12 @@ const products = [
     title: "Invoker Labs",
     link: "https://invoker.lol",
     thumbnail:
-      "/react.png",
+      "./mernlogo.png",
   },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "/react.png",
+      "/nextlogo.png",
   },
 ];
