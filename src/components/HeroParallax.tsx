@@ -102,7 +102,7 @@ export const Header = () => {
   return (
     <div className="relative left-0 top-0 mx-auto w-full max-w-5xl px-4  py-20 md:py-40">
       <h1 className="text-2xl font-bold dark:text-white md:text-7xl">
-        Projects
+        Tech Stack
       </h1>
     </div>
   );
