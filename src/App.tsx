@@ -15,10 +15,10 @@ function App() {
         <ParticleBackground />
       </div>
 
-      <div className="relative">
+      <div className="relative pt-20">
         <Card />
       </div>
-      <div className="relative p-5">
+      <div className="relative ">
         <HeroHighlightDemo />
       </div>
       <div className="bg-blue-300">
