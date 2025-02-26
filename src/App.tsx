@@ -15,18 +15,18 @@ function App() {
         <ParticleBackground />
       </div>
 
-      <div className="relative p-11">
+      <div className="relative">
         <Card />
       </div>
       <div className="relative p-5">
         <HeroHighlightDemo />
       </div>
       <div className="bg-blue-300">
-        <h1>Projects</h1>
-      </div>
-      <div className="bg-black-solid opacity-100 ">
-        <ProjectsSection />
-      </div>
+         <h1>Projects</h1>
+       </div>
+       <div className="bg-black-solid opacity-100 ">
+         <ProjectsSection />
+       </div>
     </>
   );
 }

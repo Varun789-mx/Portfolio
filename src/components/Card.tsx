@@ -2,11 +2,11 @@ import Typewriter from "typewriter-effect";
 export const Card = () => {
   return (
     <>
-      <div className=" grid grid-cols-6  justify-items-center w-full pt-5 pl-5 gap-5 ">
-        <div className="col-span-3 text-white bg-black w-full flex flex-col justify-center">
-          <h1 className="font-sans font-bold text-7xl">Hi </h1>
-          <h2 className="font-sans font-bold text-7xl">I'm Harsh</h2>
-          <span className="font-sans text-7xl text-red-400 font-bold min-h-24">
+      <div className="flex justify-between w-full  min-w-auto pl-[20%]">
+        <div className="max-w-1/2 inline-block align-middle text-white bg-black verit  ">
+          <h1 className="font-sans font-bold text-5xl">Hi </h1>
+          <h2 className="font-sans font-bold text-5xl">I'm Harsh</h2>
+          <span className="font-sans text-5xl text-red-400 font-bold">
             <Typewriter
               options={{
                 strings: [
@@ -20,7 +20,7 @@ export const Card = () => {
             />
           </span>
         </div>
-        <div className="col-span-3 max-w-fit">
+        <div className="w-1/2">
           <img
             src="https://pbs.twimg.com/profile_images/1344214220175331328/g97b2IT__400x400.jpg"
             className="rounded-full"
