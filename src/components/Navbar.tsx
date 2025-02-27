@@ -9,16 +9,23 @@ export const Navbar = () => {
             alt="logo"
           />
         </div>
-        <div className="flex items-center space-x-3">
+
+        <div className="flex items-center space-x-3 ">
           <a href="#home">
-            <span className="text-white m-2 p-2 font-bold">Home</span>{" "}
+            <button className=" p-5  text-white font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-indigo-500">
+              Home
+            </button>
           </a>
           <a href="#home">
-            <span className="text-white m-2 p-2 font-bold">Projects</span>{" "}
+            <button className=" p-5  text-white font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-indigo-500">
+              About
+            </button>
+          </a><a href="#home">
+            <button className=" p-5  text-white font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-indigo-500">
+              Testimonials
+            </button>
           </a>
-          <a href="#home">
-            <span className="text-white m-2 p-2 font-bold">Testimonials</span>{" "}
-          </a>
+         
         </div>
         <div>
           <div className="rounded-3xl cursor-pointer text-white font-bold py-2 px-4 bg-blue-500 hover:bg-blue-700  ">
