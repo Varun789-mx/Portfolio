@@ -18,9 +18,7 @@ function App() {
       <div className="relative p-11">
         <Card />
       </div>
-      <div className="relative p-5">
-        <HeroHighlightDemo />
-      </div>
+      
       <div className="bg-blue-300">
         <h1>Projects</h1>
       </div>
