@@ -11,7 +11,7 @@ function App() {
       <div className="relative p-3">
         <Navbar />
       </div>
-      <div className="fixed p-3 max-w-screen">
+      <div className="relative p-3 max-w-screen">
         <ParticleBackground />
       </div>
 
