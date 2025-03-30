@@ -6,7 +6,8 @@ import { ParticleBackground } from "./components/Particle";
 import { ProjectsSection } from "./components/Carousel";
 
 function App() { 
-  return (<>
+  return (
+	  <>
    <div className="relative p-2">
         <Navbar />
       </div>
@@ -22,6 +23,8 @@ function App() {
       </div>
       <div className="bg-black-solid opacity-100 ">
         <ProjectsSection />
-      </div></>)
+      </div>
+      </>
+  )
 }
 export default App

@@ -1,11 +1,11 @@
-import mernlogo from "../assets/mernlogo.jpg";
-import reactlogo from "../assets/react.png";
-import javascriptlogo from "../assets/javascriptlogo.png";
-import typescriptlogo from "../assets/typescriptlogo.png";
-import postgreslogo from "../assets/postgres.png";
-import clogo from "../assets/c++logo.jpg"
-import nextjslogo from "../assets/nextlogo.png";
-import postmanlogo from "../assets/postmanlogo.png";
+import mernlogo from "../assets/reactjs.png";
+import reactlogo from "../assets/vscode.png";
+import javascriptlogo from "../assets/python.png";
+import typescriptlogo from "../assets/typescript.png";
+import postgreslogo from "../assets/sql.png";
+import clogo from "../assets/c.png"
+import nextjslogo from "../assets/python.png";
+import postmanlogo from "../assets/ux.png";
 
 import { HeroParallax } from './HeroParallax';
 
